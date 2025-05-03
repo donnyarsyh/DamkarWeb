@@ -1,4 +1,4 @@
-@extends('layouts.Navbar')
+@extends('Navbar')
 
 @section('content')
 <div class="container text-white">
