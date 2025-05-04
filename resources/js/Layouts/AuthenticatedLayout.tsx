@@ -42,18 +42,7 @@ export default function Authenticated({
                 label="Pemantauan"
                 active={route().current('dashboard')}
               />
-              <NavLink
-                href="/profile"
-                icon={
-                  <img
-                    src="/images/icon/lab_profile.svg"
-                    alt="Profile"
-                    className="w-8 h-8"
-                  />
-                }
-                label="Profile"
-                active={route().current('profile.edit')}
-              />
+
 
               <NavLink
                 href="#3"
@@ -78,6 +67,18 @@ export default function Authenticated({
                 }
                 label="Riwayat & Statistik"
                 active={route().current('#riwayat')}
+              />
+              <NavLink
+                href="/profile"
+                icon={
+                  <img
+                    src="/images/icon/lab_profile.svg"
+                    alt="Profile"
+                    className="w-8 h-8"
+                  />
+                }
+                label="Profile"
+                active={route().current('profile.edit')}
               />
             </div>
             <div className="hidden sm:ms-6 sm:flex sm:items-center">
