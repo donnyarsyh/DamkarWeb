@@ -45,7 +45,8 @@ export default function Authenticated({
 
 
               <NavLink
-                href="#3"
+                href={route('laporan')}
+                active={route().current('laporan')}
                 icon={
                   <img
                     src="/images/icon/map.svg"
@@ -53,8 +54,8 @@ export default function Authenticated({
                     className="w-8 h-8"
                   />
                 }
-                label="Peta & Navigasi"
-                active={route().current('#map')}
+                label="laporan"
+                
               />
               <NavLink
                 href="#4"

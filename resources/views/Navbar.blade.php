@@ -23,7 +23,7 @@
         <img src="{{ asset('images/icon/monitor.png') }}" alt="File Icon" class="icon" />
         <span>Pemantauan</span>
       </button>
-      <button class="custom-button">
+      <button class="custom-button" onclick="location.href='{{ route('laporan') }}'">
         <img src="{{ asset('images/icon/report.png') }}" alt="File Icon" class="icon" />
         <span>Laporan</span>
       </button>
